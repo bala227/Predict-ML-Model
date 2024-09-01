@@ -6,14 +6,14 @@ from ydata_profiling import ProfileReport
 
 from pycaret.classification import pull,setup,compare_models,save_model
 
-ml_img = "ML_model/ml.png"
+ml_img = "ml.png"
 
 if os.path.exists("data.csv"):
     data = pd.read_csv("data.csv",index_col=None)
 
 with st.sidebar:
     st.image(ml_img)
-    st.title("Automatic")
+    st.title("Automatic ML")
     choice = st.radio("Features",["Upload","Profile","ML","Download"])
     st.info("This application will help you to build automated machine learning pipeline.")
 
