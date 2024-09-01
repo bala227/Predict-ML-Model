@@ -6,7 +6,7 @@ from ydata_profiling import ProfileReport
 
 from pycaret.classification import pull,setup,compare_models,save_model
 
-ml_img = "ml.png"
+ml_img = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsinsight.net%2Flatest-news%2Feverything-you-need-to-know-about-adversarial-machine-learning&psig=AOvVaw1vGIBgWyY-CDzN5wtESWo2&ust=1725285866486000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjU3Yj1oYgDFQAAAAAdAAAAABAE"
 
 if os.path.exists("data.csv"):
     data = pd.read_csv("data.csv",index_col=None)
