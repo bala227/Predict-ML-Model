@@ -4,6 +4,9 @@
 
 This Streamlit application provides an automated machine learning pipeline. It allows users to upload a dataset, perform data profiling, set up a machine learning environment, and download the best-performing model. The app leverages PyCaret for machine learning.
 
+## Project Link :
+https://ml-model-predictor.streamlit.app
+
 ## Features
 
 - **Upload**: Upload a CSV file containing the dataset for analysis and modeling.
@@ -23,5 +26,5 @@ To run this application, you need the following Python packages:
 
 You can install the required packages using pip:
 
-```bash
-pip install streamlit pandas streamlit-pandas-profiling ydata-profiling pycaret
+  ```bash
+    pip install streamlit pandas streamlit-pandas-profiling ydata-profiling pycaret
