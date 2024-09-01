@@ -13,7 +13,7 @@ if os.path.exists("data.csv"):
 
 with st.sidebar:
     st.image(ml_img)
-    st.title("Automatic ML")
+    st.title("Automatic")
     choice = st.radio("Features",["Upload","Profile","ML","Download"])
     st.info("This application will help you to build automated machine learning pipeline.")
 
