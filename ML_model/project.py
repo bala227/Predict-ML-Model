@@ -6,7 +6,7 @@ from ydata_profiling import ProfileReport
 
 from pycaret.classification import pull,setup,compare_models,save_model
 
-ml_img = "images/ml.png"
+ml_img = "ML_model/images/ml.png"
 
 if os.path.exists("data.csv"):
     data = pd.read_csv("data.csv",index_col=None)
