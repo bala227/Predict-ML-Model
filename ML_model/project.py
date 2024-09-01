@@ -6,7 +6,7 @@ from ydata_profiling import ProfileReport
 
 from pycaret.classification import pull,setup,compare_models,save_model
 
-ml_img = "ml.png"
+ml_img = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fmachine-learning&psig=AOvVaw0q3uKDShzmlISjNStVNblL&ust=1725288681053000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOC_u7f_oYgDFQAAAAAdAAAAABAJ"
 
 if os.path.exists("data.csv"):
     data = pd.read_csv("data.csv",index_col=None)
